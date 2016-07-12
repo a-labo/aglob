@@ -21,7 +21,6 @@ describe('aglob', function () {
     try {
       yield aglob('__not_existing')
     } catch (e) {
-
       caught = e
     }
     assert.ifError(caught)
