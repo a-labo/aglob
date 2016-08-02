@@ -55,6 +55,7 @@ Async glob module.
 <!-- Section from "doc/guides/01.Installation.md.hbs" Start -->
 
 <a name="section-doc-guides-01-installation-md"></a>
+
 Installation
 -----
 
@@ -68,6 +69,7 @@ $ npm install aglob --save
 <!-- Section from "doc/guides/02.Usage.md.hbs" Start -->
 
 <a name="section-doc-guides-02-usage-md"></a>
+
 Usage
 ---------
 
@@ -75,9 +77,9 @@ Usage
 #!/usr/bin/env/node
 'use strict'
 
-const expandglob = require('expandglob')
+const aglob = require('aglob')
 
-expandglob([
+aglob([
   'lib/*.js',
   'doc/**/.js'
 ], {

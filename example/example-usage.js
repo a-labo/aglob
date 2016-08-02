@@ -1,9 +1,9 @@
 #!/usr/bin/env/node
 'use strict'
 
-const expandglob = require('expandglob')
+const aglob = require('aglob')
 
-expandglob([
+aglob([
   'lib/*.js',
   'doc/**/.js'
 ], {
