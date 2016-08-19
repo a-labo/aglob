@@ -1,8 +1,9 @@
 {
   "name": "aglob",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Async glob module.",
   "main": "lib",
+  "browser": false,
   "scripts": {
     "test": "./ci/test.js",
     "prepublish": "./ci/build.js"
@@ -24,14 +25,14 @@
     "glob": "^7.0.5"
   },
   "devDependencies": {
-    "amocha": "^1.0.11",
+    "amocha": "^1.0.14",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.8",
     "ape-tmpl": "^5.0.15",
     "ape-updating": "^4.0.5",
-    "coz": "^6.0.16",
+    "coz": "^6.0.17",
     "injectmock": "^2.0.0"
   },
   "engines": {

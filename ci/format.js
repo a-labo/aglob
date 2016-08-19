@@ -16,7 +16,6 @@ runTasks('format', [
     '.*.bud',
     'lib/.*.bud',
     'example/*.js',
-    'doc/mocks/*.js',
     'test/.*.bud'
   ], {
     ignore: [
