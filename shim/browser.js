@@ -1,5 +1,5 @@
 'use strict'
 
-module.exports = () => {
+module.exports = function () {
   throw new Error('[aglob] Browser not supported!')
 }
